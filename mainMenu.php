@@ -7,14 +7,14 @@
         </a>
 
         <!-- BUTTON -->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#main_menu">
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main_menu" aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- LINKS -->
         <div class="collapse navbar-collapse" id="main_menu">
             <!-- left list -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a href="addproduct.php" class="nav-link">Products</a>
                 </li>
